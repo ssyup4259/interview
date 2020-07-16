@@ -12,13 +12,13 @@
 
  
 
-**OOP 객체지향프로그래밍**
+##### **OOP 객체지향프로그래밍**
 
  구성하는 요소들을 객체로 바라보고, 객체들을 유기적으로 연결하여 프로그래밍 하는 것
 
  
 
-**OOP 5대원칙 (SOLID)**
+##### **OOP 5대원칙 (SOLID)**
 
 - SRP (Single Responsibility Principle)
 
