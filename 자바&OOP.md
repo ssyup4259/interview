@@ -151,7 +151,7 @@ java runtime environment, jvm이 실행하는 것을 도와주는 조력자 역�
 
 사용하지 않는 메모리를 정리하기 위한 기능이다. 메모리 구역을 나누어 GC를 진행시킨다. gc는 힙에 상주
 
- ![gc](C:\Users\ssyup\Desktop\interview\img\gc.gif)
+ ![gc](https://github.com/ssyup4259/interview/blob/master/img/gc.gif?raw=true)
 
   메모리에 객체가 처음 생성되면 ,eden 영역에 객체가 지정된다. eden 영역에 데이터가 어느정도 쌓이게 된다면 어디론가 옮겨지거(promotion)나 삭제된다(minor gc). 이때 옮겨가는 위치가 survivor 영역, 두개의 survivor 영역이 있는데 하나는 반드시 비워 둬야 한다. 할당된 Survivor 영역이 차면 Eden 영역에 있는 객체와 꽉 찬 Survivor 영역에 있는 객체가 비어 있는 Survivor 영역으로 이동합니다. 그러다가 더 큰 객체가 생성되거나, 더 이상 Young 영역에 공간이 남지 않으면 객체들은 Old 영역으로 이동하게 됩니다. major 는 Old 영역에서 객체가 정리되는 것을 말한다.
 
@@ -169,7 +169,7 @@ java runtime environment, jvm이 실행하는 것을 도와주는 조력자 역�
 
 **접근 지정자**
 
-![public](C:\Users\ssyup\Desktop\interview\img\public.png)
+![public](https://github.com/ssyup4259/interview/blob/master/img/public.png?raw=true)
 
 - private : 같은 클래스 내에서만
 
