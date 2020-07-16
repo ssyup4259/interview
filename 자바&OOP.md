@@ -78,7 +78,7 @@ Parent p = new Child(); 가능
 
 **JVM 구성**
 
-![jvm](C:\Users\ssyup\Desktop\interview\img\jvm.png)
+![jvm](https://github.com/ssyup4259/interview/blob/master/img/jvm.png?raw=true)
 
 1. 클래스 로더
 
