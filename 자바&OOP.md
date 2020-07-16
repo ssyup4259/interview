@@ -1,6 +1,6 @@
 # 자바&OOP
 
-**자바언어의 특징**
+##### **자바언어의 특징**
 
 - 운영체제에 독립적이다. JVM을 사용하여 독립적으로 개발하여 모든 운영체제에서 사용할 수 있도록 변환시킬 수 있다.
 
@@ -12,7 +12,7 @@
 
  
 
-##### **OOP 객체지향프로그래밍**
+**OOP 객체지향프로그래밍**
 
  구성하는 요소들을 객체로 바라보고, 객체들을 유기적으로 연결하여 프로그래밍 하는 것
 
@@ -42,25 +42,25 @@
 
  
 
-**캡슐화**
+##### **캡슐화**
 
  객체의 속성과 행위를 하나로 묶고, 실제 구현 내용 일부를 외부에 감추어 은닉한다. getter/setter를 활용한 예제들
 
  
 
-**추상화**
+##### **추상화**
 
  공통적으로 가지는 특성이 있다면 추상화하고 상속받은 클래스들이 해당 함수를 구현하도록 하는 설계
 
  
 
-**다형성**
+##### **다형성**
 
 동일한 메서드를 어떤 객체에 의해서 사용 되냐에 따라 다르게 동작하는 것, 오버라이딩 오버로딩
 
  
 
-**상속**
+##### **상속**
 
 Child c = new Parent(); 오류
 
@@ -70,13 +70,13 @@ Parent p = new Child(); 가능
 
  
 
-**JVM이란?**
+##### **JVM이란?**
 
   자바를 실행하기 위한 가상머신이다. 일반 언어들은 바로 os를 거쳐 하드웨어로 전달되지만, 자바 언어는 jvm을 거쳐 해석된 후 os를 거쳐 하드웨어로 전달된다. 자바 코드에서 컴파일을 하면 바이트 코드로 변환되고, 이를 각 os에 맞게 jvm을 이용하여 실행한다. 이 때문에 다른 언어보다 속도가 느릴 수 있지만, 요즘 하드웨어의 성능이 좋아지면서 속도의 격차가 줄었다.
 
  
 
-**JVM 구성**
+##### **JVM 구성**
 
 ![jvm](https://github.com/ssyup4259/interview/blob/master/img/jvm.png?raw=true)
 
@@ -108,7 +108,7 @@ Parent p = new Child(); 가능
 
  
 
-**클래스 변수 vs 인스턴스 변수 vs 지역**
+##### **클래스 변수 vs 인스턴스 변수 vs 지역**
 
 ```java
 class Info{
@@ -125,19 +125,19 @@ class Info{
 
 
 
-**- JRE이란?**
+#####  JRE이란?
 
 java runtime environment, jvm이 실행하는 것을 도와주는 조력자 역할, 자바 실행 환경
 
  
 
-**- JDK이란?**
+##### **JDK이란?**
 
  java development kit, 개발자를 위한 환경, jre을 통해 실행 환경을 구축하고 jvm을 통해 실행을 할수 있고, jdk를 통해서 개발을 할 수 있다. .java 파일을 컴파일 하여 바이트코드(.class)를 생성하는 단계까지 제공(javac)
 
  
 
-**- JDK 버전 별 차이**
+##### **JDK 버전 별 차이**
 
 1.5 : 확장 for문 사용 가능, 제네릭 추가, 오토박싱, 오토언박싱 추가
 
@@ -147,7 +147,7 @@ java runtime environment, jvm이 실행하는 것을 도와주는 조력자 역�
 
  
 
-**GC(Garbage Collection)이란?**
+##### **GC(Garbage Collection)이란?**
 
 사용하지 않는 메모리를 정리하기 위한 기능이다. 메모리 구역을 나누어 GC를 진행시킨다. gc는 힙에 상주
 
@@ -159,7 +159,7 @@ java runtime environment, jvm이 실행하는 것을 도와주는 조력자 역�
 
  
 
-**클래스와 객체**
+##### **클래스와 객체**
 
 - 클래스 : 현실 세계의 물건의 속성과 동작을 추려내 필드와 메서드로 정의한 것으로 아직 메모리가 할당되지 않은 상태이다.
 
@@ -167,7 +167,7 @@ java runtime environment, jvm이 실행하는 것을 도와주는 조력자 역�
 
  
 
-**접근 지정자**
+##### **접근 지정자**
 
 ![public](https://github.com/ssyup4259/interview/blob/master/img/public.png?raw=true)
 
@@ -181,7 +181,7 @@ java runtime environment, jvm이 실행하는 것을 도와주는 조력자 역�
 
  
 
-**Call by Value, Call by Reference**
+##### **Call by Value, Call by Reference**
 
 CBV : 값에 의한 참조
 
@@ -189,7 +189,7 @@ CBR : 주소에 의한 참조
 
  
 
-**String, StringBuilder, StringBuffer**
+##### **String, StringBuilder, StringBuffer**
 
 - String 
 
@@ -205,13 +205,13 @@ CBR : 주소에 의한 참조
 
  
 
-**equals와 ==의 차이**
+##### **equals와 ==의 차이**
 
   Object의 경우 차이가 없다. 메소드를 자세히 살펴보면 return(this==obj) 이기 때문, 그러나 String의 equals를 오버라이드 하면 if(this==obj) 이후 if( obj instanceof str)이 나온다. 따라서 == 주소 값 비교, equals는 1차적으로 주소 값 비교, 2차적으로 값 비교
 
  
 
-**추상클래스 인터페이스의 차이**
+##### **추상클래스 인터페이스의 차이**
 
 - 추상클래스
 
@@ -225,7 +225,7 @@ CBR : 주소에 의한 참조
 
  
 
-**Comparable vs Comparator**
+##### **Comparable vs Comparator**
 
 - Comparable : 기본 정렬 기준을 구현하는데 사용 (compareTo)
 
@@ -233,7 +233,7 @@ CBR : 주소에 의한 참조
 
  
 
-**오버로딩 오버라이딩**
+##### **오버로딩 오버라이딩**
 
 - 오버로딩
 
@@ -245,7 +245,7 @@ CBR : 주소에 의한 참조
 
   
 
-**Collection**
+##### **Collection**
 
 ArrayList, LinkedList, Vector, HashSet, TreeSet, HashMap, TreeMap 등이 있다.
 
@@ -261,7 +261,7 @@ Tree 가 들어가는 것은 이진 검색 트리 또는레드 블랙 트리라�
 
  
 
-**Array, ArrayList, LinkedList**
+##### **Array, ArrayList, LinkedList**
 
 - Array
 
@@ -277,7 +277,7 @@ Tree 가 들어가는 것은 이진 검색 트리 또는레드 블랙 트리라�
 
 
 
-**쓰레드 구현**
+##### **쓰레드 구현**
 
 1. Thread 클래스를 상속,
 
@@ -285,7 +285,7 @@ Tree 가 들어가는 것은 이진 검색 트리 또는레드 블랙 트리라�
 
  
 
-**업캐스팅 vs 다운 캐스팅**
+##### **업캐스팅 vs 다운 캐스팅**
 
 - Parent p = new Child() -> 업 캐스팅
 
@@ -293,7 +293,7 @@ Tree 가 들어가는 것은 이진 검색 트리 또는레드 블랙 트리라�
 
  
 
-**Wrapper 클래스**
+##### **Wrapper 클래스**
 
 8종류의 기본형을 클래스로 만들기 위해 존재
 
@@ -303,7 +303,7 @@ Tree 가 들어가는 것은 이진 검색 트리 또는레드 블랙 트리라�
 
  
 
-**Generic**
+##### **Generic**
 
 자료형을 정하지 않고 여러가지 타입을 한번에 사용하는 방식
 
@@ -323,7 +323,7 @@ public class GenericTest<T> {
 
 
 
-**람다식**
+##### **람다식**
 
 메서드를 하나의 식으로 표현한 것, 람다식을 통해 메서드가 하나의 독립적인 기능을 하기 때문에 함수라는 용어를 사용한다. 객체지향언어인 동시에 함수형 언어행위를 할 수 있다.
 
