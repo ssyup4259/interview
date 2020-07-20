@@ -1,3 +1,7 @@
+  실제 면접에서 나왔던 기술 질문들 과 면접을 준비하면서 공부하였던 내용들을 모아 놓은 것입니다. 계속적으로 추가할 예정입니다.
+
+<br>
+
 ### 자바&OOP
 
 - [자바언어의 특징](https://github.com/ssyup4259/interview/blob/master/자바%26OOP.md#자바언어의-특징)
@@ -27,6 +31,57 @@
 - [Generic](https://github.com/ssyup4259/interview/blob/master/자바%26OOP.md#generic)
 - [람다식](https://github.com/ssyup4259/interview/blob/master/자바%26OOP.md#람다식)
 
-
+<br>
 
 ### 웹(JSP, Servlet, Spring, MyBatis, JPA)
+
+- [HTTP 메소드 종류](https://github.com/ssyup4259/interview/blob/master/웹.md#http메소드-종류)
+- [Get vs Post](https://github.com/ssyup4259/interview/blob/master/웹.md#get-vs-post)
+- [HTTP 단계](https://github.com/ssyup4259/interview/blob/master/웹.md#http-단계)
+
+- [HTTP vs HTTPS](https://github.com/ssyup4259/interview/blob/master/웹.md#http-와-https)
+
+- [xml vs json](https://github.com/ssyup4259/interview/blob/master/웹.md#xml-vs-json)
+
+- [웹의 동작 원리](https://github.com/ssyup4259/interview/blob/master/웹.md#웹의-동작원리)  url에 특정 주소를 치고 난 후
+- [JSP & Servlet](https://github.com/ssyup4259/interview/blob/master/웹.md#jsp-vs-servlet)
+
+- [mvc1 vs mvc2](https://github.com/ssyup4259/interview/blob/master/웹.md#mvc1-vs-mvc2)
+- [MVC 구조](https://github.com/ssyup4259/interview/blob/master/웹.md#mvc-구조)
+
+- [forward vs redirect](https://github.com/ssyup4259/interview/blob/master/웹.md#포워드-와-리다이렉트)
+
+- [검색엔진 동작 원리](https://github.com/ssyup4259/interview/blob/master/웹.md#검색엔진-동작원리)
+- [cookie vs session](https://github.com/ssyup4259/interview/blob/master/웹.md#쿠키와-세션의-차이)
+- [동기 vs 비동기](https://github.com/ssyup4259/interview/blob/master/웹.md#동기와-비동기)
+
+- [blocking vs NonBlocking](https://github.com/ssyup4259/interview/blob/master/웹.md#blocking-vs-nonblocking)
+- [Restful](https://github.com/ssyup4259/interview/blob/master/웹.md#restful)
+
+- [SPRING 버전](https://github.com/ssyup4259/interview/blob/master/웹.md#스프링의-버전)
+
+- [Spring 특징](https://github.com/ssyup4259/interview/blob/master/웹.md#스프링의-특징)
+
+- [Spring mvc 동작원리](https://github.com/ssyup4259/interview/blob/master/웹.md#스프링-mvc-동작원리)
+
+- [Spring annotation 종류](https://github.com/ssyup4259/interview/blob/master/웹.md#스프링-어노테이션-종류)
+
+- [interceptor](https://github.com/ssyup4259/interview/blob/master/웹.md#interceptor)
+
+- [filter](https://github.com/ssyup4259/interview/blob/master/웹.md#filter)
+
+- [root-context vs servlet-context](https://github.com/ssyup4259/interview/blob/master/웹.md#root-context-vs-servlet-context)
+
+- [DAO, DTO](https://github.com/ssyup4259/interview/blob/master/웹.md#daodata-access-object)
+
+- [service](https://github.com/ssyup4259/interview/blob/master/웹.md#service)
+
+- [mybatis](https://github.com/ssyup4259/interview/blob/master/웹.md#mybatis)
+
+- [orm, jpa](https://github.com/ssyup4259/interview/blob/master/웹.md#orm)
+
+- [spring-boot](https://github.com/ssyup4259/interview/blob/master/웹.md#spring-boot)
+
+- [gradle](https://github.com/ssyup4259/interview/blob/master/웹.md#gradle)
+
+- [JWT](https://github.com/ssyup4259/interview/blob/master/웹.md#jwtjson-web-token)
