@@ -125,10 +125,10 @@
 
 ### 데이터베이스
 
-- [데이터베이스설계](https://github.com/ssyup4259/interview/blob/master/데이터베이스.md#설계-시-고려사항)
-- [키 종류](https://github.com/ssyup4259/interview/blob/master/데이터베이스.md#데이터베이스-키-들의-종류)
+- [데이터베이스설계](https://github.com/ssyup4259/interview/blob/master/데이터베이스.md#설계-시-고려사항)&#127775;
+- [키 종류](https://github.com/ssyup4259/interview/blob/master/데이터베이스.md#데이터베이스-키-들의-종류)&#127775;
 
-- [정규화](https://github.com/ssyup4259/interview/blob/master/데이터베이스.md#정규화)
+- [정규화](https://github.com/ssyup4259/interview/blob/master/데이터베이스.md#정규화)&#127775;&#127775;
 
 - [Stroed Procedure](https://github.com/ssyup4259/interview/blob/master/데이터베이스.md#stored-procedure저장-프로시저)
 
@@ -136,9 +136,9 @@
 
 - [Char vs VarChar2](https://github.com/ssyup4259/interview/blob/master/데이터베이스.md#char-vs-varchar2)
 
-- [인덱스](https://github.com/ssyup4259/interview/blob/master/데이터베이스.md#인덱스index-색인)
-- [트랜잭션](https://github.com/ssyup4259/interview/blob/master/데이터베이스.md#sql-injection)
-- [뷰(view)](https://github.com/ssyup4259/interview/blob/master/데이터베이스.md#뷰view)
+- [인덱스](https://github.com/ssyup4259/interview/blob/master/데이터베이스.md#인덱스index-색인)&#127775;
+- [트랜잭션](https://github.com/ssyup4259/interview/blob/master/데이터베이스.md#트랜잭션)&#127775;&#127775;&#127775;
+- [뷰(view)](https://github.com/ssyup4259/interview/blob/master/데이터베이스.md#뷰view)&#127775;&#127775;
 
-- [SQL injection](https://github.com/ssyup4259/interview/blob/master/데이터베이스.md#sql-injection)
+- [SQL injection](https://github.com/ssyup4259/interview/blob/master/데이터베이스.md#sql-injection)&#127775;
 
