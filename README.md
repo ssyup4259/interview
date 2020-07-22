@@ -121,3 +121,24 @@
 
 - [기아상태](https://github.com/ssyup4259/interview/blob/master/운영체제.md#기아상태)
 
+<br>
+
+### 데이터베이스
+
+- [데이터베이스설계](https://github.com/ssyup4259/interview/blob/master/데이터베이스.md#설계-시-고려사항)
+- [키 종류](https://github.com/ssyup4259/interview/blob/master/데이터베이스.md#데이터베이스-키-들의-종류)
+
+- [정규화](https://github.com/ssyup4259/interview/blob/master/데이터베이스.md#정규화)
+
+- [Stroed Procedure](https://github.com/ssyup4259/interview/blob/master/데이터베이스.md#stored-procedure저장-프로시저)
+
+- [Outer Join](https://github.com/ssyup4259/interview/blob/master/데이터베이스.md#left-outer-join)
+
+- [Char vs VarChar2](https://github.com/ssyup4259/interview/blob/master/데이터베이스.md#char-vs-varchar2)
+
+- [인덱스](https://github.com/ssyup4259/interview/blob/master/데이터베이스.md#인덱스index-색인)
+- [트랜잭션](https://github.com/ssyup4259/interview/blob/master/데이터베이스.md#sql-injection)
+- [뷰(view)](https://github.com/ssyup4259/interview/blob/master/데이터베이스.md#뷰view)
+
+- [SQL injection](https://github.com/ssyup4259/interview/blob/master/데이터베이스.md#sql-injection)
+
