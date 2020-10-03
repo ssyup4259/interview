@@ -329,6 +329,8 @@ public class GenericTest<T> {
 }
 ```
 
+[더 자세히 알기](https://blog.naver.com/11tjdnfeo/222102625174)
+
 <Br>
 
 ##### **람다식**
