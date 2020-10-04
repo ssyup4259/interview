@@ -249,6 +249,8 @@ CBR : 주소에 의한 참조
 
 - Comparator : 기본 정렬 기준 외에 다른 기준으로 정렬하고자 할 때 사용(compare)
 
+[코드와 함께 조금 더 자세히 알기](https://blog.naver.com/11tjdnfeo/222102626359)
+
 <Br>
 
 ##### **Collection**
