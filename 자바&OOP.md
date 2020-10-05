@@ -221,7 +221,9 @@ CBR : 주소에 의한 참조
 
     Thread-safe하다. 멀티 스레드 환경에서 동기화의 지원 여부가 다른다. 모든 메소드에 대해 synchronized 키워드가 붙어있다.
 
- <Br>
+[더 자세히 알기](https://blog.naver.com/11tjdnfeo/222102628072) 
+
+<Br>
 
 ##### **equals와 ==의 차이**
 
